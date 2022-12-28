@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Navbar, Container } from 'react-bootstrap'
+import { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
